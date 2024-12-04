@@ -1,4 +1,4 @@
-# Analysis of Drug-Target Interactions Using Machine Learning
+# Analysis of drug-target interactions using Machine Learning
 
 This work is developed in the ambit of the curricular unit **Intelligent Systems for Bioinformatics** of the Bioinformatics Master's program by:
 
@@ -11,7 +11,7 @@ This work is developed in the ambit of the curricular unit **Intelligent Systems
 This project involves the analysis of the [DAVIS dataset](https://tdcommons.ai/multi_pred_tasks/dti) using ML techniques, leveraging Python as the programming language. 
 The work is documented in a Jupyter Notebook, structured into logical sections that outline each step of the analysis. 
 
-# Project Description
+# Project description
 The goal of this project is to analyze the Drug-Target Interactions (DTI) present in the DAVIS dataset, which focuses on the interaction of kinase inhibitors with human kinases. 
 This dataset provides an opportunity to design predictive models that can estimate binding affinities between drugs and protein targets. 
 The primary aim is to create a machine learning model capable of predicting these affinities, thereby contributing to advancements in drug discovery and precision medicine.
@@ -19,9 +19,9 @@ The primary aim is to create a machine learning model capable of predicting thes
 ## About the Dataset
 The DAVIS dataset contains detailed information about:
 - 72 kinase inhibitors interacting with 442 kinases, covering over 80% of the human catalytic protein kinome;
-- Task: Regression. Predict the binding affinity between drug compounds (represented as SMILES strings) and target proteins (represented as amino acid sequences);
-- Statistics: 25,772 drug-target interaction (DTI) pairs, 68 drugs, and 379 proteins;
-- Splits: Random Split, Cold Drug Split, Cold Protein Split.
+- **Task:** Regression. Predict the binding affinity between drug compounds (represented as SMILES strings) and target proteins (represented as amino acid sequences);
+- **Statistics:** 25,772 drug-target interaction (DTI) pairs, 68 drugs, and 379 proteins;
+- **Splits:** Random Split, Cold Drug Split, Cold Protein Split.
 
 # Dataset Access
 To access the dataset and prepare it for analysis, the following code can be used:

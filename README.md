@@ -36,8 +36,6 @@ split = data.get_split()
 This project is divided into the following sections:
 
 **1. Data Exploration and Preprocessing**
-
-- Objective: Understand the structure and characteristics of the dataset.
 - Perform exploratory data analysis to visualize and summarize key patterns and distributions.
 - Preprocess the dataset by handling missing values, generating features, and normalizing data as needed.
 
